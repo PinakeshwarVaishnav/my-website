@@ -1,6 +1,10 @@
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
+
 export default function App() {
   return (
-    <div>
+    <div className={inter.className}>
       <h1>🚀 Full Stack Developer & AI/ML Enthusiast </h1>
       <p>
         Hi there! I&apos;m Pinakeshwar Vaishnav and I&apos;m a Full Stack

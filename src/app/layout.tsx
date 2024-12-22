@@ -1,11 +1,17 @@
 "use client";
 import { ThemeProvider } from "next-themes";
+import NavBar from "@/components/NavBar";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark" style={{ colorScheme: "dark" }}>
       <body>
-        <ThemeProvider attribute="class" defaultTheme="dark">
+        <NavBar />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+        >
           {children}
         </ThemeProvider>
       </body>
