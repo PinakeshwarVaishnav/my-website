@@ -10,15 +10,17 @@ const NavBar = () => {
 
   return (
     <nav>
-      <ul>
+      <div className="flex space-x-4">
         {navLinks.map((link) => (
-          <li key={link.href}>
-            <Link key={link.href} href={link.href}>
-              {link.label}
-            </Link>
-          </li>
+          <Link
+            key={link.href}
+            href={link.href}
+            className="text-white no-underline hover:text-gray-300 transition-colors duration-300"
+          >
+            {link.label}
+          </Link>
         ))}
-      </ul>
+      </div>
     </nav>
   );
 };

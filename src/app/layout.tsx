@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark" style={{ colorScheme: "dark" }}>
+    <html lang="en" style={{ colorScheme: "dark" }}>
       <body>
         <NavBar />
         <ThemeProvider
