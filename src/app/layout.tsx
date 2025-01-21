@@ -5,7 +5,7 @@ import { ThemeProvider } from "next-themes";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html>
+    <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider
           attribute="class"
