@@ -9,7 +9,7 @@ const NavBar = () => {
 
   return (
     <nav>
-      <div className="flex justify-center items-center space-x-4 px-4 py-2">
+      <div className="flex justify-center items-center space-x-4">
         {navLinks.map((link) => (
           <Link
             key={link.href}
