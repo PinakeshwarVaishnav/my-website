@@ -8,8 +8,8 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="w-full">
-      <div className="flex justify-end items-center space-x-4 px-4 py-2">
+    <nav>
+      <div className="flex justify-center items-center space-x-4 px-4 py-2">
         {navLinks.map((link) => (
           <Link
             key={link.href}
