@@ -16,7 +16,7 @@ const projects = [
     description:
       "A minimalist journal app where users can record their thoughts as they come.",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://project-two.example.com",
+    link: "https://inner-monologue-journal.vercel.app/",
   },
   {
     id: 3,
