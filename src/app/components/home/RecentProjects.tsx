@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
 
@@ -36,8 +35,6 @@ const projects = [
 ];
 
 export default function RecentProjects() {
-  const [visibleProjects, setVisibleProjects] = useState(2);
-
   return (
     <section className="w-full max-w-4xl py-12 px-5">
       <div className="mx-auto">
@@ -47,7 +44,7 @@ export default function RecentProjects() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {projects.slice(0, visibleProjects).map((project) => (
+          {projects.map((project) => (
             <Card
               key={project.id}
               className="border border-gray-700 bg-gray-800 hover:bg-gray-750 transition-colors duration-300"
