@@ -1,6 +1,7 @@
 import RecentProjects from "./components/home/RecentProjects";
 import ConnectSection from "./components/home/ConnectSection";
 import Head from "next/head";
+import { Code, Brain } from "lucide-react";
 
 export default function App() {
   return (
@@ -18,9 +19,15 @@ export default function App() {
             Hi, I&apos;m
             <span className="text-sky-500"> Pinakeshwar Vaishnav</span>
           </h1>
-          <p className="mt-2 font-bold">
-            <span className="text-green-600">Full Stack </span>
-            <span className="text-sky-500">AI Engineer</span>
+          <p className="mt-4 font-bold text-lg flex items-center gap-2">
+            <span className="text-green-600 flex items-center">
+              <Code className="mr-1" size={24} />
+              Full Stack{" "}
+            </span>
+            <span className="text-sky-500 flex items-center">
+              <Brain className="mr-1" size={24} />
+              AI Engineer
+            </span>
           </p>
         </section>
         <RecentProjects />
