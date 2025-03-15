@@ -6,16 +6,14 @@ export default function App() {
   return (
     <div>
       <Head>
-        <title>
-          Pinakeshwar Vaishnav - Full Stack AI Engineer
-        </title>
+        <title>Pinakeshwar Vaishnav - Full Stack AI Engineer</title>
         <meta
           name="description"
           content="Portfolio of Pinakeshwar Vaishnav, Full Stack AI Engineer"
         />
       </Head>
       <main>
-        <section className="py-10 px-5">
+        <section className="py-10 px-5 flex flex-col items-center">
           <h1 className="text-3xl font-extrabold">
             Hi, I&apos;m
             <span className="text-sky-500"> Pinakeshwar Vaishnav</span>
