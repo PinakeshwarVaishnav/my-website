@@ -29,7 +29,7 @@ function SocialLink({ href, icon, label }: SocialLinkProps) {
 
 export default function ConnectSection() {
   return (
-    <section className="py-16 md:py-24">
+    <section className="pt-16 md:pt-24">
       <div className="space-y-8">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
