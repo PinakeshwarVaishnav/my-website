@@ -23,15 +23,15 @@ const projects = [
     tags: ["React", "Next.js", "TailwindCSS"],
     link: "https://persona-ai-delta.vercel.app/",
   },
+
   {
     id: 2,
-    title: "Inner Monologue Journal",
-    description:
-      "A minimalist journal app where users can record their thoughts as they come.",
+    title: "AI Companion",
+    description: "Your AI Companion for a Better Life",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://inner-monologue-journal.vercel.app/",
+    link: "https://ai-companion-chi-one.vercel.app/",
   },
-  // Add more projects here
+  // Add new better projects here and remove old ones
 ];
 
 export default function RecentProjects() {
