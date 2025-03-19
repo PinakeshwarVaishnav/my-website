@@ -3,6 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
   {
+    id: 4,
+    title: "AI Companion",
+    description: "Your AI Companion for a Better Life",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://ai-companion-chi-one.vercel.app/",
+  },
+  {
     id: 3,
     title: "Persona AI",
     description:
