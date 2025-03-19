@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
+    id: 3,
     title: "Persona AI",
     description:
       "Persona AI is a web application for creating AI personas that can interact with audiences via voice, text, and other mediums, offering a new level of personalized digital engagement.",
@@ -19,7 +19,7 @@ const projects = [
     link: "https://inner-monologue-journal.vercel.app/",
   },
   {
-    id: 3,
+    id: 1,
     title: "TechNova Innovations",
     description: "Website for a fictional tech company",
     tags: ["React", "Next.js", "TailwindCSS"],
