@@ -3,6 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
   {
+    id: 6,
+    title: "Calling Compass",
+    description: "Turn Work Into Play",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://calling-compass.vercel.app/",
+  },
+  {
     id: 5,
     title: "AI Tutor",
     description: "Learn anything with your personal AI tutor available 24/7",

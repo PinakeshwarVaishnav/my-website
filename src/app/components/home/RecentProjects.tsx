@@ -23,13 +23,12 @@ const projects = [
     tags: ["React", "Next.js", "TailwindCSS"],
     link: "https://persona-ai-delta.vercel.app/",
   },
-
   {
     id: 2,
-    title: "AI Companion",
-    description: "Your AI Companion for a Better Life",
+    title: "Calling Compass",
+    description: "Turn Work Into Play",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://ai-companion-chi-one.vercel.app/",
+    link: "https://calling-compass.vercel.app/",
   },
   // Add new better projects here and remove old ones
 ];
