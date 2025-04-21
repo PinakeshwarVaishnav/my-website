@@ -25,10 +25,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "Calling Compass",
-    description: "Turn Work Into Play",
+    title: "Creator's Leverage",
+    description: "Helping creators bring their product ideas to life",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://calling-compass.vercel.app/",
+    link: "https://creator-leverage.vercel.app/",
   },
   // Add new better projects here and remove old ones
 ];

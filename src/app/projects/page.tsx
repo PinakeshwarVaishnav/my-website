@@ -3,6 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
   {
+    id: 7,
+    title: "Creator's Leverage",
+    description: "Helping creators bring their product ideas to life",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://creator-leverage.vercel.app/",
+  },
+  {
     id: 6,
     title: "Calling Compass",
     description: "Turn Work Into Play",
