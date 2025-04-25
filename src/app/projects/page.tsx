@@ -3,6 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
   {
+    id: 8,
+    title: "LinguaAI",
+    description: "Master Any Language with AI",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://lingua-ai-two.vercel.app/",
+  },
+  {
     id: 7,
     title: "Creator's Leverage",
     description: "Helping creators bring their product ideas to life",
