@@ -47,6 +47,13 @@ const projects = [
   },
   {
     id: 2,
+    title: "TechNova Innovations",
+    description: "Website for a fictional tech company",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://modern-tech-website-prototype.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Inner Monologue Journal",
     description:
       "A minimalist journal app where users can record their thoughts as they come.",
@@ -54,11 +61,11 @@ const projects = [
     link: "https://inner-monologue-journal.vercel.app/",
   },
   {
-    id: 1,
-    title: "TechNova Innovations",
-    description: "Website for a fictional tech company",
+    id: 0,
+    title: "Hobby Matchmaker",
+    description: "Find Your Hobby Soulmates",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://modern-tech-website-prototype.vercel.app/",
+    link: "https://hobby-matchmaker-dusky.vercel.app/",
   },
   // Add more projects here
 ];
