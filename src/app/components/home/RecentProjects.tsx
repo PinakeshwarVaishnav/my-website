@@ -25,10 +25,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "Creator's Leverage",
-    description: "Helping creators bring their product ideas to life",
+    title: "Unnoise",
+    description: "Cut through the noise in hiring",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://creator-leverage.vercel.app/",
+    link: "https://unnoise.vercel.app/",
   },
   // Add new better projects here and remove old ones
 ];
