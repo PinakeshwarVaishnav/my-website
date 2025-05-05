@@ -3,6 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
   {
+    id: 9,
+    title: "Unnoise",
+    description: "Cut through the noise in hiring",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://unnoise.vercel.app/",
+  },
+  {
     id: 8,
     title: "LinguaAI",
     description: "Master Any Language with AI",
