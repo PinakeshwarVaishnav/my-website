@@ -3,6 +3,14 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
   {
+    id: 10,
+    title: "SoftSell",
+    description:
+      "SoftSell helps businesses sell unused software licenses quickly and at the best market rates. Turn your idle software assets into cash.",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://softsell-pearl.vercel.app/",
+  },
+  {
     id: 9,
     title: "Unnoise",
     description: "Cut through the noise in hiring",
