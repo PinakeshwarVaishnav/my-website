@@ -2,6 +2,13 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 const projects = [
+{
+    id: 12,
+    title: "Travel Buddy",
+    description: "Find Your Perfect Travel Companion",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://travel-buddy-sable.vercel.app/",
+  },
   {
     id: 11,
     title: "AI Assist",
