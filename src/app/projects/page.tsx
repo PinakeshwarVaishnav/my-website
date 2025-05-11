@@ -3,6 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
 {
+    id: 13,
+    title: "Meaningful Match",
+    description: "Find Your Perfect Match, Not Endless Options",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://meaningful-match.vercel.app/",
+  },
+{
     id: 12,
     title: "Travel Buddy",
     description: "Find Your Perfect Travel Companion",
