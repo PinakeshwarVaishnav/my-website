@@ -17,11 +17,11 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   {
     id: 1,
-    title: "Persona AI",
+    title: "SoftSell",
     description:
-      "Persona AI is a web application for creating AI personas that can interact with audiences via voice, text, and other mediums, offering a new level of personalized digital engagement.",
+      "SoftSell helps businesses sell unused software licenses quickly and at the best market rates. Turn your idle software assets into cash.",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://persona-ai-delta.vercel.app/",
+    link: "https://softsell-pearl.vercel.app/",
   },
   {
     id: 2,
