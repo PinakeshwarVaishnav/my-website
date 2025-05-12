@@ -3,6 +3,13 @@ import { ArrowLeft } from "lucide-react";
 
 const projects = [
 {
+    id: 14,
+    title: "CreatorConnect",
+    description: "Connect brands with the perfect creators. The single platform where brands discover creators to boost sales and creators showcase their talents to get sponsored.",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://creator-connect-one.vercel.app/",
+  },
+{
     id: 13,
     title: "Meaningful Match",
     description: "Find Your Perfect Match, Not Endless Options",
