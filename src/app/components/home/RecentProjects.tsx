@@ -17,11 +17,11 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   {
     id: 1,
-    title: "SoftSell",
+    title: "CreatorConnect",
     description:
-      "SoftSell helps businesses sell unused software licenses quickly and at the best market rates. Turn your idle software assets into cash.",
+      "Connect brands with the perfect creators. The single platform where brands discover creators to boost sales and creators showcase their talents to get sponsored.",
     tags: ["React", "Next.js", "TailwindCSS"],
-    link: "https://softsell-pearl.vercel.app/",
+    link: "https://creator-connect-one.vercel.app/",
   },
   {
     id: 2,
