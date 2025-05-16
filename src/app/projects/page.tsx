@@ -2,21 +2,30 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 const projects = [
-{
+  {
+    id: 15,
+    title: "ContentPulse - Data-Driven Content Creation",
+    description:
+      "Help content creators make data-driven decisions to create viral content",
+    tags: ["React", "Next.js", "TailwindCSS"],
+    link: "https://content-pulse-jet.vercel.app/",
+  },
+  {
     id: 14,
     title: "CreatorConnect",
-    description: "Connect brands with the perfect creators. The single platform where brands discover creators to boost sales and creators showcase their talents to get sponsored.",
+    description:
+      "Connect brands with the perfect creators. The single platform where brands discover creators to boost sales and creators showcase their talents to get sponsored.",
     tags: ["React", "Next.js", "TailwindCSS"],
     link: "https://creator-connect-one.vercel.app/",
   },
-{
+  {
     id: 13,
     title: "Meaningful Match",
     description: "Find Your Perfect Match, Not Endless Options",
     tags: ["React", "Next.js", "TailwindCSS"],
     link: "https://meaningful-match.vercel.app/",
   },
-{
+  {
     id: 12,
     title: "Travel Buddy",
     description: "Find Your Perfect Travel Companion",
