@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 const projects = [
   {
     id: 15,
-    title: "ContentPulse - Data-Driven Content Creation",
+    title: "ContentPulse",
     description:
       "Help content creators make data-driven decisions to create viral content",
     tags: ["React", "Next.js", "TailwindCSS"],
